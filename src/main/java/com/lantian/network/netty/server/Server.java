@@ -36,6 +36,7 @@ public class Server {
                     .handler(new LoggingHandler(LogLevel.INFO))
                     .localAddress(new InetSocketAddress(port))
                     .childHandler(new ChannelInitializer<SocketChannel>() {
+                        @Override
                         protected void initChannel(SocketChannel ch) throws Exception {
                             ch.pipeline().addLast("decoder", new ProtostuffDecoder());
                             ch.pipeline().addLast("encoder", new ProtostuffEncoder());

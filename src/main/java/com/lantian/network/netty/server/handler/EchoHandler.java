@@ -14,10 +14,10 @@ public class EchoHandler extends SimpleChannelInboundHandler {
     @Override
     protected void channelRead0(ChannelHandlerContext ctx, Object msg) throws Exception {
         Message message = (Message) msg;
-        if (message.getType() == MessageType.ECHO){
-            String echo=message.getEcho();
+        if (message.getType() == MessageType.ECHO) {
+            String echo = message.getEcho();
             System.out.println(echo);
-        }else{
+        } else {
             ctx.fireChannelRead(msg);
         }
     }

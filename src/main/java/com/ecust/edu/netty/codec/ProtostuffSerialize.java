@@ -16,12 +16,12 @@
  *
  */
 
-package com.lantian.network.netty.codec;
+package com.ecust.edu.netty.codec;
 
 import com.dyuproject.protostuff.LinkedBuffer;
 import com.dyuproject.protostuff.ProtostuffIOUtil;
 import com.dyuproject.protostuff.Schema;
-import com.lantian.network.netty.Message;
+import com.ecust.edu.netty.Message;
 import org.objenesis.Objenesis;
 import org.objenesis.ObjenesisStd;
 

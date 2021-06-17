@@ -1,7 +1,7 @@
-package com.lantian.network.netty.server.handler;
+package com.ecust.edu.netty.server.handler;
 
-import com.lantian.network.netty.Message;
-import com.lantian.network.netty.MessageType;
+import com.ecust.edu.netty.Message;
+import com.ecust.edu.netty.MessageType;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.SimpleChannelInboundHandler;
 import org.slf4j.Logger;

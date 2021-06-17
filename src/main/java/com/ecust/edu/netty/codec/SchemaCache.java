@@ -16,7 +16,7 @@
  *
  */
 
-package com.lantian.network.netty.codec;
+package com.ecust.edu.netty.codec;
 
 import com.dyuproject.protostuff.Schema;
 import com.dyuproject.protostuff.runtime.RuntimeSchema;

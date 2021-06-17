@@ -1,4 +1,4 @@
-package com.lantian.network.nio;
+package com.ecust.edu.nio;
 
 import java.io.IOException;
 import java.net.InetSocketAddress;
@@ -16,7 +16,7 @@ import java.util.Set;
  */
 public class NioDemo {
 
-    public static void main(String[] args) throws  IOException {
+    public static void main(String[] args) throws IOException {
         ServerSocketChannel serverSocketChannel = ServerSocketChannel.open();
         Selector selector = Selector.open();
 
@@ -51,6 +51,8 @@ public class NioDemo {
                     socketChannel.configureBlocking(false);
                     socketChannel.register(selector, SelectionKey.OP_READ, ByteBuffer.allocate(1024));
                 }
+
+                selectionKey.interestOps();
 
                 // 发生 OP_READ 事件，读客户端数据
                 if (selectionKey.isReadable()) {

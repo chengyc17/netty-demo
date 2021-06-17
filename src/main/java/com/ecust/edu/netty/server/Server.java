@@ -1,9 +1,9 @@
-package com.lantian.network.netty.server;
+package com.ecust.edu.netty.server;
 
-import com.lantian.network.netty.codec.ProtostuffDecoder;
-import com.lantian.network.netty.codec.ProtostuffEncoder;
-import com.lantian.network.netty.server.handler.EchoHandler;
-import com.lantian.network.netty.server.handler.HeartBeatHandler;
+import com.ecust.edu.netty.codec.ProtostuffDecoder;
+import com.ecust.edu.netty.codec.ProtostuffEncoder;
+import com.ecust.edu.netty.server.handler.HeartBeatHandler;
+import com.ecust.edu.netty.server.handler.EchoHandler;
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.channel.ChannelFuture;
 import io.netty.channel.ChannelInitializer;

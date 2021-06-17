@@ -1,4 +1,4 @@
-package com.lantian.network.netty;
+package com.ecust.edu.netty;
 
 import lombok.Data;
 

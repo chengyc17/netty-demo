@@ -1,10 +1,10 @@
-package com.lantian.network.netty.client;
+package com.ecust.edu.netty.client;
 
-import com.lantian.network.netty.Message;
-import com.lantian.network.netty.MessageType;
-import com.lantian.network.netty.client.handler.HeartBeatClientHandler;
-import com.lantian.network.netty.codec.ProtostuffDecoder;
-import com.lantian.network.netty.codec.ProtostuffEncoder;
+import com.ecust.edu.netty.Message;
+import com.ecust.edu.netty.codec.ProtostuffDecoder;
+import com.ecust.edu.netty.codec.ProtostuffEncoder;
+import com.ecust.edu.netty.MessageType;
+import com.ecust.edu.netty.client.handler.HeartBeatClientHandler;
 import io.netty.bootstrap.Bootstrap;
 import io.netty.channel.*;
 import io.netty.channel.nio.NioEventLoopGroup;

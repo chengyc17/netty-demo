@@ -1,11 +1,10 @@
-package com.lantian.network.netty.client.handler;
+package com.ecust.edu.netty.client.handler;
 
-import com.lantian.network.netty.Message;
-import com.lantian.network.netty.MessageType;
+import com.ecust.edu.netty.Message;
+import com.ecust.edu.netty.MessageType;
 import io.netty.channel.Channel;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.ChannelInboundHandlerAdapter;
-import io.netty.handler.timeout.IdleState;
 import io.netty.handler.timeout.IdleStateEvent;
 import io.netty.util.ReferenceCountUtil;
 

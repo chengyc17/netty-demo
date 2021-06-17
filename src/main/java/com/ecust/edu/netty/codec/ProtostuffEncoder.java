@@ -1,4 +1,4 @@
-package com.lantian.network.netty.codec;
+package com.ecust.edu.netty.codec;
 
 import io.netty.buffer.ByteBuf;
 import io.netty.channel.ChannelHandlerContext;

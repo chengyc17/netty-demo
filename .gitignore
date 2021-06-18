@@ -17,6 +17,7 @@ bin
 build
 target
 .idea
+.idea/
 *.iml
 *.ipr
 *.iws
